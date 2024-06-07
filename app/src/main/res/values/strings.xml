@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">IT Caluculator</string>
+    <string name="login_text">Вход в приложение</string>
+    <string name="login_login">Логин</string>
+    <string name="login_password">Пароль</string>
+    <string name="login_button">Войти</string>
+    <string name="login_empty">Данные не введены</string>
+    <string name="login_error">Не удалось войти</string>
+    <string name="main_subnet">Расчёт подсети</string>
+    <string name="main_transfer">Расчёт времени передачи</string>
+    <string name="main_password">Генерация паролей</string>
+    <string name="main_poe">Расчёт POE</string>
+    <string name="subnet_ip">IP</string>
+    <string name="subnet_mask">Маска</string>
+    <string name="subnet_calculate">Рассчитать</string>
+    <string name="subnet_result">Адрес сети: %s\nBroadcast-адрес: %s\nВсего хостов: %d</string>
+    <string name="transfer_amount">Объём данных</string>
+    <string name="transfer_rate">Скорость передачи</string>
+    <string-array name="transfer_amount_unit">
+        <item>b</item>
+        <item>B</item>
+        <item>KB</item>
+        <item>KiB</item>
+        <item>MB</item>
+        <item>MiB</item>
+        <item>GB</item>
+        <item>GiB</item>
+        <item>TB</item>
+        <item>TiB</item>
+        <item>PB</item>
+        <item>PiB</item>
+        <item>EB</item>
+        <item>EiB</item>
+        <item>ZB</item>
+        <item>ZiB</item>
+        <item>YB</item>
+        <item>YiB</item>
+    </string-array>
+    <string-array name="transfer_rate_unit">
+        <item>bps</item>
+        <item>Bps</item>
+        <item>Kbps</item>
+        <item>KBps</item>
+        <item>Mbps</item>
+        <item>MBps</item>
+        <item>Gbps</item>
+        <item>GBps</item>
+    </string-array>
+    <string name="transfer_calculate">Рассчитать</string>
+    <string name="transfer_result">%d секунд (%d часов, %d минут, %d секунд)</string>
+    <string name="password_length">Длина</string>
+    <string name="password_generate">Сгенерировать</string>
+    <string name="password_copy">Скопировать</string>
+    <string name="password_copied">Скопировано</string>
+    <string name="poe_pairs">Количество пар</string>
+    <string name="poe_cable_info">Cat5e = 24 AWG\nCat6/6a = 23 AWG\nSlim Cat6 = 28 AWG\nUltra Slim Cat6 = 32 AWG\nSlim Cat8 = 22 AWG</string>
+    <string name="poe_cable_size">Ширина кабеля (AWG)</string>
+    <string name="poe_supply_voltage">Напряжение питания (V)</string>
+    <string name="poe_cable_length">Длина кабеля (м)</string>
+    <string name="poe_power_per_device">Мощность на устройство (W)</string>
+    <string name="poe_total_devices">Всего устройств</string>
+    <string name="poe_calculate">Рассчитать</string>
+    <string name="poe_result">Потеря напряжения: %f</string>
+</resources>
